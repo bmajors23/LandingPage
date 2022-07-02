@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     min-height: 200vh;
     margin: 0;
+    background-color: black;
 }
 
 header {
@@ -10,6 +11,7 @@ header {
     display: flex;
     justify-content: space-between;
     height: 50px;
+    margin: 0% 12%;
 }
 
 .top-container {
@@ -17,6 +19,7 @@ header {
     background-color: grey;
     flex: auto;
     justify-content: center;
+    margin: 0% 12%;
 }
 
 .awesome-container {
@@ -46,8 +49,7 @@ header {
     justify-content: center;
     background-color: cadetblue;
     flex: auto;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: 0% 12%;
 }
 
 .boxes {
@@ -59,6 +61,7 @@ header {
 .third-container {
     background-color: green;
     flex: auto;
+    margin: 0% 12%;
 
 }
 
@@ -66,7 +69,7 @@ header {
     text-align: end;
     font-size: 24px;
     font-weight: 900;
-    margin: 0% 15%;
+    margin: 0% 12%;
 }
 
 .fourth-container {
@@ -75,6 +78,7 @@ header {
     justify-content: center;
     align-items: center;
     flex: auto;
+    margin: 0% 12%;
     
 }
 
@@ -94,7 +98,11 @@ header {
 footer {
     background-color: lightblue;
     text-align: center;
-    height: 50px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 12%;
 }
 
 .signupbtn {
