@@ -41,9 +41,27 @@ header {
 
 .signature {
     text-align: end;
-    
 }
 
+.fourth-container {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.call-to-action {
+    background-color: blue;
+    display: flex;
+}
 
+.call-text {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: lightblue;
+    text-align: center;
+}
 
