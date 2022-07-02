@@ -43,22 +43,30 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: cadetblue;
     flex: auto;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .boxes {
     display: flex;
     text-align: center;
+    gap: 100px;
 }
 
 .third-container {
     background-color: green;
     flex: auto;
+
 }
 
 .signature {
     text-align: end;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0% 15%;
 }
 
 .fourth-container {
@@ -75,8 +83,7 @@ header {
 }
 
 .call-text {
-    display: flex;
-    flex-direction: column;
+
 }
 
 footer {
@@ -90,5 +97,17 @@ footer {
 }
 
 img {
-    max-width: 50%;
+    max-width: 100%;
+    border-style: double;
+}
+
+.info-heading {
+    margin-bottom: 100px;
+    font-size: 36px;
+}
+
+.quote {
+    font-size: 48px;
+    color: rgba(0, 0, 0, 0.77);
+    padding: 75px 20%;
 }
