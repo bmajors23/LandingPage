@@ -9,9 +9,25 @@ body {
 header {
     background-color: grey;
     display: flex;
-    justify-content: space-between;
     height: 50px;
     margin: 0% 12%;
+}
+
+.logo {
+    padding-top: 14px;
+    margin-left: 15%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links {
+    margin-right: 15%;
+    padding-top: 14px;
+    display: flex;
+    justify-content: flex-end;
+    flex: auto;
+    gap: 20px;
+    font-size: 18px;
 }
 
 .top-container {
@@ -29,6 +45,10 @@ header {
     width: 35%;
     margin: 100px 0px;
 
+}
+
+.awesome-container h1 {
+    font-size: 56px;
 }
 
 .placeholder {
@@ -56,6 +76,7 @@ header {
     display: flex;
     text-align: center;
     gap: 100px;
+    padding: 0% 12% 6%;
 }
 
 .third-container {
@@ -69,7 +90,7 @@ header {
     text-align: end;
     font-size: 24px;
     font-weight: 900;
-    margin: 0% 12%;
+    margin: -4% 12% 6%;
 }
 
 .fourth-container {
