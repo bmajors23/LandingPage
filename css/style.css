@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-container {
+    display: flex;
+    align-items: baseline;
+    background-color: grey;
+}
+
+.awesome-container {
+    background-color: aqua;
+}
+
+.placeholder {
+    background-color: blueviolet;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+.boxes {
+    display: flex;
+    text-align: center;
+}
+
+.third-container {
+    background-color: green;
+}
+
+.signature {
+    text-align: end;
+    
+}
+
+
+
+
